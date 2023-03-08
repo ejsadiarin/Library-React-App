@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
 
 function App() {
@@ -8,8 +7,9 @@ function App() {
   return (
     <div className="App">
      <h1>EJ SADIARIN LIBRARY APP</h1>
+     <button onClick={num => setCount(num + 1)}> Count is {count} </button>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
